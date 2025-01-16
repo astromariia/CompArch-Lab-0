@@ -9,6 +9,7 @@ module stimulus ();
    integer handle3;
    integer desc3;
    
+   `timescale 1ns/100ps
    // Instantiate DUT
    fsm dut (clock, reset, In, Out);
 
@@ -30,7 +31,7 @@ module stimulus ();
    always 
      begin
 	desc3 = handle3;
-	#5 $fdisplay(desc3, "%b %b || %b", 
+	#10 $fdisplay(desc3, "%b %b || %b", 
 		     reset, In, Out);
      end   
    
