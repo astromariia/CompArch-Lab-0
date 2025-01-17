@@ -13,5 +13,3 @@
 # //
 # fsm.do
 # invalid command name "fsm.do"
-vsim -do fsm.do
-# No design specified
