@@ -5,16 +5,14 @@ module stimulus ();
 
    logic [4:0] ra1, ra2, wa3;
 
-   logic   In;
-   
-   logic   Out;
-   
+   logic   [31:0] Writein,Read1,Read2;
+    
    integer handle3;
    integer desc3;
    
    `timescale 1ns/100ps
    // Instantiate DUT
-   regfile dut (clock, In, Out);
+   regfile dut (clock,Enable,ra1, ra2, wa3,Writein,Read1,Read2);
 
    // Setup the clock to toggle every 1 time units 
    initial 
@@ -26,7 +24,7 @@ module stimulus ();
    initial
      begin
 	// Gives output file name
-	handle3 = $fopen("test.out");
+	handle3 = $fopen("Regtest.out");
 	// Tells when to finish simulation
 	#500 $finish;		
      end
@@ -34,6 +32,22 @@ module stimulus ();
    always 
      begin
 	desc3 = handle3;
-	#10 $fdisplay(desc3, "%b %b || %b", 
-		     reset, In, Out);
+	#10 $fdisplay(desc3, "Ra1 =%b 
+  Ra2 = %b ", 
+		     ra1, ra2 );
      end
+     initial 
+       begin
+        #0 ra1= 5'b00000
+        #0 ra2= 5'b00000
+
+
+
+
+
+
+
+
+       end
+
+endmodule
