@@ -1,83 +1,70 @@
 m255
 K4
 z2
-Z0 !s99 nomlopt
-R0
-!s11f MIXED_VERSIONS
-R0
+!s99 nomlopt
+!s11f vlog 2021.3 2021.07, Jul 13 2021
 13
 !s112 1.1
 !i10d 8192
 !i10e 25
 !i10f 100
 cModel Technology
-Z1 d/home/jstine/ecen4243/ecen4243S25/lab0/SV
+Z0 dC:/Users/marii/OneDrive/Desktop/CompArch-Lab-0/lab0/SV
 T_opt
-!s110 1734562498
-Vi6g]EM;XBeOmL[AlCYkXW0
-Z2 04 8 4 work stimulus fast 0
-=1-b07b25d4a6a8-676352c2-3ea03-13546
-Z3 !s124 OEM100
-Z4 o-quiet -auto_acc_if_foreign -work work +acc
-Z5 tCvgOpt 0
+!s110 1737151443
+VYo8zMG637@4gCOW6a5iEf3
+04 8 4 work stimulus fast 0
+=1-a8934a884d97-678ad3d2-123-2eb8
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
 n@_opt
-OL;O;2021.3_1;73
-R1
-T_opt1
-!s110 1737051445
-V0oH]?0a>W[ZEV:9_dTXL>1
-R2
-=1-a8934a884d97-67894d35-113-3a04
-R3
-R4
-R5
-n@_opt1
 OL;O;2021.3;73
 vfsm
-Z6 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-!s110 1737051414
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1737151441
 !i10b 1
 !s100 a^2@0O]MI?Qo=K2=5cm970
 I]lPo_<ZDnkC4jPaND[W;A0
 S1
-Z7 dC:/Users/marii/OneDrive/Desktop/CompArch-Lab-0/lab0/SV
+R0
 w1736971753
 8fsm.sv
 Ffsm.sv
-!i122 3
+!i122 0
 L0 1 29
-Z8 VDg1SIo80bB@j0V0VzS_@n1
-Z9 OL;L;2021.3;73
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.3;73
 r1
 !s85 0
 31
-!s108 1737051414.000000
-!s107 fsm.sv|
-!s90 -reportprogress|300|fsm.sv|
+Z6 !s108 1737151441.000000
+Z7 !s107 tb_fsm.sv|fsm.sv|
+Z8 !s90 -reportprogress|300|fsm.sv|tb_fsm.sv|
 !i113 0
-Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R5
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
 vstimulus
-R6
-!s110 1737051426
+R2
+R3
 !i10b 1
-!s100 LoUgU[c47`0QF:976mLo>3
-I2MnSHPCVO>RRnfjLhB:H[0
+!s100 QG:C5d9RO_L`Lb9z<Wmmn2
+I0]zRcY[ji?`CN391S8XhM1
 S1
-R7
-w1737051389
+R0
+w1737071727
 8tb_fsm.sv
 Ftb_fsm.sv
-!i122 4
-L0 1 58
-R8
-R9
+!i122 0
+L0 1 56
+R4
+R5
 r1
 !s85 0
 31
-!s108 1737051426.000000
-!s107 tb_fsm.sv|
-!s90 -reportprogress|300|tb_fsm.sv|
+R6
+R7
+R8
 !i113 0
-R10
-R5
+R9
+R1
