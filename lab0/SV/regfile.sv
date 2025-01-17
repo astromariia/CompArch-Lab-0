@@ -29,8 +29,5 @@ module regfile (input logic         clk,
         end
     end
 
-    initial begin
-        rf = '{default: 32'b0}; 
-
 endmodule // regfile
 
