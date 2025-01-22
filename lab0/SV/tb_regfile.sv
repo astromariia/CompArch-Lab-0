@@ -40,6 +40,10 @@ module stimulus ();
        begin
         #0 ra1= 5'b00000;
         #0 ra2= 5'b00000;
+        #5 wa3=5'b00001;
+        #0 Writein='1;
+        #0 ra1=5'b00001;
+        
 
 
 
