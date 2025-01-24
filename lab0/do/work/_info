@@ -1,0 +1,70 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.3 2021.07, Jul 13 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/marii/OneDrive/Desktop/CompArch-Lab-0/lab0/do
+T_opt
+Z1 !s110 1737757134
+VTVAg]_00CcIeEiKzbn@3c2
+04 8 4 work stimulus fast 0
+=1-a8934a884d97-679411ce-24f-33c0
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.3;73
+vregfile
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R1
+!i10b 1
+!s100 >?fEeILozOd5GX00Kh_WB3
+IDC4_hk5b<z5a9_m<a7jnB0
+S1
+R0
+w1737155673
+8../src/regfile.sv
+F../src/regfile.sv
+!i122 0
+L0 1 32
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.3;73
+r1
+!s85 0
+31
+Z6 !s108 1737757133.000000
+Z7 !s107 ../tb/tb_regfile.sv|../src/regfile.sv|
+Z8 !s90 ../src/regfile.sv|../tb/tb_regfile.sv|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vstimulus
+R3
+R1
+!i10b 1
+!s100 @38_>ZbEM1j_i==1O^HHm3
+I7<:iXNY=16V5Ljk6fV>j:0
+S1
+R0
+w1737754324
+8../tb/tb_regfile.sv
+F../tb/tb_regfile.sv
+!i122 0
+L0 1 80
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2

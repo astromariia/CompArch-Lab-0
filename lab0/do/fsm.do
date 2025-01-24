@@ -27,7 +27,7 @@ if [file exists work] {
 vlib work
 
 # compile source files
-vlog regfile.sv tb_regfile.sv
+vlog ../src/fsm.sv ../tb/tb_fsm.sv
 
 # start and run simulation
 vsim -voptargs=+acc work.stimulus 
@@ -38,9 +38,9 @@ view wave
 -- display input and output signals as hexidecimal values
 # Diplays All Signals recursively
 add wave -r /stimulus/clock
-add wave -r /stimulus/ra1
-add wave -r /stimulus/ra2
-
+add wave -r /stimulus/reset
+add wave -r /stimulus/In
+add wave -r /stimulus/Out
 
 # Adapt to make Waveform Viewer prettier :)
 #add wave -noupdate -divider -height 32 "MIPS Datapath"
@@ -71,3 +71,5 @@ configure wave -childrowmargin 2
 
 -- Run the Simulation
 run 150ns
+
+
