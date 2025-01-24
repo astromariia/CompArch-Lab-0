@@ -31,7 +31,7 @@ module stimulus ();
 
    always 
      begin
-	desc3 = handle3;
+	//desc3 = handle3;
   /*
 	#10 $fdisplay(desc3, "Ra1 =%b \n Ra2 = %b ", 
 		     ra1, ra2 );
@@ -40,13 +40,14 @@ module stimulus ();
 
      initial 
        begin
+        #0 desc3= handle3;
         #0 ra1= 5'b00000;
         #0 ra2= 5'b00000;
         #0 Enable=1'b1; //enable writing
         #10 wa3=5'b00001; //on rising edge of clock cycle, set that we want to write into register 1
         #0 Writein='1; //write 32 1s into the register
         #0 ra1=5'b00001; //want to read register 1
-        #0 $fdisplay(desc3, "does rf[1]=what we just wrote? %b",rf[1]==Read1);
+        #0 $fdisplay(desc3, "does rf[1]=what we just wrote? %b",Writein==Read1);
         #10 ra2=5'b00010;
         #0 wa3=5'b00010; // after this write, both registers 1 and 2 should be 32 1s
         #0 $fdisplay(desc3, "rf[1]= %b /n rf[2]=%b",Read1,Read2); //test 2, reading both registers
