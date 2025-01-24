@@ -24,7 +24,7 @@ module regfile (input logic         clk,
     end
 
     always_ff @(posedge clk) begin
-        if (we3 && wa3 != 5'b00000) begin
+        if (we3 && (wa3 != 5'b00000)) begin
             rf[wa3] <= wd3; 
         end
     end

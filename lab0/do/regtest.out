@@ -1,5 +1,6 @@
-does rf[1]=what we just wrote? x
-rf[1]= xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx /n rf[2]=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-rf[0]= 00000000000000000000000000000000
-rf[3]= xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-rf[4]=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+rf[1]=beebeeaf Test 1
+rf[1]= beebeeaf 
+ rf[2]=beebeeaf This is test 2
+rf[0]= 00000000 Test 3
+rf[3]= beebeeaf Test 4
+rf[4]=xxxxxxxx Test 5

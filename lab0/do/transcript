@@ -1,16 +1,19 @@
 # do regfile.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is osuco@CONNORSLAPTOP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
 # Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
-# Start time: 16:18:53 on Jan 24,2025
+# Start time: 17:07:00 on Jan 24,2025
 # vlog ../src/regfile.sv ../tb/tb_regfile.sv 
 # -- Compiling module regfile
 # -- Compiling module stimulus
 # 
 # Top level modules:
 # 	stimulus
-# End time: 16:18:54 on Jan 24,2025, Elapsed time: 0:00:01
+# End time: 17:07:00 on Jan 24,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -voptargs="+acc" work.stimulus 
-# Start time: 16:18:54 on Jan 24,2025
+# Start time: 17:07:00 on Jan 24,2025
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: ../tb/tb_regfile.sv(32): (vopt-2569) Removing unused hanging process.
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
@@ -31,6 +34,11 @@
 # Loading work.stimulus(fast)
 # Loading work.regfile(fast)
 # .list
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: osuco  Hostname: CONNORSLAPTOP  ProcessID: 6792
+#           Attempting to use alternate WLF file "./wlft2w21s5".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft2w21s5
 # configure wave not supported in batch mode
 # configure wave not supported in batch mode
 # configure wave not supported in batch mode
@@ -39,5 +47,5 @@
 # configure wave not supported in batch mode
 # configure wave not supported in batch mode
 # configure wave not supported in batch mode
-# End time: 16:19:01 on Jan 24,2025, Elapsed time: 0:00:07
-# Errors: 0, Warnings: 1
+# End time: 17:07:30 on Jan 24,2025, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 3

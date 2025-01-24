@@ -40,7 +40,10 @@ view wave
 add wave -r /stimulus/clock
 add wave -r /stimulus/ra1
 add wave -r /stimulus/ra2
-
+add wave -r /stimulus/Enable
+add wave -r /stimulus/Writein
+add wave -r /stimulus/Read1
+add wave -r /stimulus/Read2
 
 # Adapt to make Waveform Viewer prettier :)
 #add wave -noupdate -divider -height 32 "MIPS Datapath"
@@ -70,4 +73,4 @@ configure wave -rowmargin 4
 configure wave -childrowmargin 2
 
 -- Run the Simulation
-run 150ns
+run 70ns
